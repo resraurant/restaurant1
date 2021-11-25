@@ -1,0 +1,89 @@
+/* *{
+    color: chocolate;
+} */
+
+/* 选中具有href的属性 */
+[href]{
+    color:yellow;
+    
+}
+[href="https://baidu.com"]{
+    color: #008c8c;
+}
+
+a:link{
+    color: lime;
+}
+
+a:visited{
+    color: black;
+}
+
+/* 选中鼠标悬停时的a元素 */
+a:hover{
+color: blue;
+}
+
+/* 选中鼠标点击时的a元素 */
+a:active{
+    color: lightgreen;
+}
+
+span::before
+{
+content:"《";
+color:red
+}
+
+span::after{
+    content:"》";
+    color:blue
+
+}
+
+
+
+p{
+    text-indent: 3em;
+    line-height: 5;
+}
+
+p.red{
+    color:gold
+
+}
+
+.red li{
+    color: #00f;
+}
+
+.abc .bcd{
+    color: greenyellow;
+}
+
+.abc>.bd{
+    color:darkred
+}
+
+.special{
+    color: red;
+
+}
+
+.special+li{
+    color:#008c8c
+}
+
+.spspsp{
+    color: chartreuse;
+}
+
+
+.spspsp~li{
+    color: #00f;
+}
+
+
+.spspsp~li,p{
+    color: #00f;
+}
